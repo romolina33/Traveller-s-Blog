@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="cocoders">
+  <meta name="description" content="blog">
+  <meta name="keywords" content="travel, blog, turism">
+  <link rel="icon" href="img/icon.jpeg">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHE">
+  <title>Travellers Blog</title>
+  <style> 
+    .bg-orange {
+        background-color: #E07E17;
+    }
+
+    .bg-grey {
+        background-color: #dbdbdb; 
+    }
+    
+    </style>
+</head>
+
+<body>
+<!--Cards--> 
+  <div class="container__cards">
+    <div class="cards bg-white d-flex px-0 mt-1 border-ligh justify-content-center justify-content-xl-evenly">
+        <div class="card mb-3 text-dark">
+          <div class="card-body">
+            <img src="img/cards/asia.jpg" class="card-img-top rounded" alt="...">
+            <div class="card-img-overlay">
+                <div class="container__img rounded"></div>
+                <h5 class="card-title">Asia</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <a href="#" class="button">Ver más</a>
+            </div>
+            <div class="card__bottom">
+                <div class="card__location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p class="card__bottom-text"> Monte Everest</p>
+                </div>
+                <div class="card__comments">
+                    <i class="bi bi-chat-heart-fill"></i>
+                    <p class="card__bottom-text"> Comentarios (35) </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="card mb-3 text-dark">
+            <div class="card-body">
+              <img src="img/cards/america.jpg" class="card-img-top rounded" alt="...">
+              <div class="card-img-overlay">
+                  <div class="container__img rounded"></div>
+                  <h5 class="card-title">America</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                  <a href="#" class="button">Ver más</a>
+              </div>
+              <div class="card__bottom">
+                  <div class="card__location">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p class="card__bottom-text"> Machu Pichu</p>
+                  </div>
+                  <div class="card__comments">
+                      <i class="bi bi-chat-heart-fill"></i>
+                      <p class="card__bottom-text"> Comentarios (72) </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <br>
+        <div class="card mb-3 text-dark">
+            <div class="card-body">
+              <img src="img/cards/europa.jpg" class="card-img-top rounded" alt="...">
+              <div class="card-img-overlay">
+                  <div class="container__img rounded"></div>
+                  <h5 class="card-title">Europa</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                  <a href="#" class="button">Ver más</a>
+              </div>
+              <div class="card__bottom">
+                  <div class="card__location">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p class="card__bottom-text">Roma</p>
+                  </div>
+                  <div class="card__comments">
+                      <i class="bi bi-chat-heart-fill"></i>
+                      <p class="card__bottom-text"> Comentarios (68) </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <br>
+        <div class="card mb-3 text-dark">
+            <div class="card-body">
+              <img src="img/cards/africa.jpg" class="card-img-top rounded" alt="...">
+              <div class="card-img-overlay">
+                  <div class="container__img rounded"></div>
+                  <h5 class="card-title">Africa</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                  <a href="#" class="button">Ver más</a>
+              </div>
+              <div class="card__bottom">
+                  <div class="card__location">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p class="card__bottom-text"> Sudafrica</p>
+                  </div>
+                  <div class="card__comments">
+                      <i class="bi bi-chat-heart-fill"></i>
+                      <p class="card__bottom-text"> Comentarios (15) </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!--Paginacion-->
+  <nav aria-label="Page navigation example">
+    <ul class="pagination rounded">
+      <li class="page-item">
+        <a class="page-link bg-orange" href="#" aria-label="Previous">
+            <i class="bi bi-arrow-left-circle-fill text-light"></i>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link bg-orange text-light" href="#">1</a></li>
+      <li class="page-item "><a class="page-link bg-orange text-light" href="#">2</a></li>
+      <li class="page-item"><a class="page-link bg-orange text-light" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link bg-orange" href="#" aria-label="Next">
+            <i class="bi bi-arrow-right-circle-fill text-light"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+<!--ListaMobile--> 
+  <div class="navbar navbar-expand-lg bg-orange rounded-start d-flex align-items-center justify-content-center d-lg-none flex-row">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="height: 50px;">
+      <p class="text-light mt-1"> Continentes </p>
+      </a>       
+      <button class="navbar-toggler bg-grey text" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid collapse" id="navbarToggleExternalContent">
+        <div class="bg-orange p-2 rounded">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Asia
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                  <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  América
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                  <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Europa
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                  <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  África
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                  <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>  
+  </div>
+<!--Lista-->
+  <div class="container__list d-none d-lg-flex">
+    <div class="bg-orange rounded-start d-flex align-items-center justify-content-center" style="width: 200px;">
+      <p class="text-light pt-3"> Continentes </p>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-grey rounded-end" style="width: 100%;">
+      <div class="container-fluid rounded">
+        <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Asia
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                América
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Europa
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse " id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                África
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark bg-grey">
+                <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+<!--Form-->
+  <div class="container__form">
+    <div class="container__form-lg">
+      <h3 class="form__tittle">Usá el <span>buscador</span> para obtener más <span> información </span>sobre nuestros viajes</h3>
+      <p class="form__text"> Lorem ipsum dolor sit amet aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+    </div>
+  <form class="form">
+    <input class="form__input border-0" type="text" placeholder="Articulos">
+    <button class="form__button" type="submit">Buscar <i class="bi bi-search text-light ms-2"></i></button>
+  </form> 
+  </div>
+<!--Soponsors-->
+  <h2 class="add__tittle">Nuestros <span>Sponsors</span></h2>
+  <div class="add__container row">
+  <div class="add__container-airbnb d-none d-sm-block col-8 col-md-4 col-lg-3"></div>
+  <div class="add__container-hilton--black d-none d-md-block col-md-4 d-lg-none "></div>
+  <div class="add__container-hilton bg-orange d-none d-lg-block col-8 col-lg-3"></div>
+  <div class="add__container-aa d-none d-sm-block col-8 col-md-4  col-lg-3"></div>
+  <div class="add__container-montagne d-none d-sm-block col-8 col-md-4 col-lg-3"></div>
+  <div class="add__container-jeep d-none d-sm-block col-8 col-md-4 col-lg-3"></div>
+  <div class="add__container-booking d-none d-sm-block col-8 col-md-4 col-lg-3"></div>
+  </div>
+<!--Button-->
+  <div class="container__js">
+    <h2 class="button__tittle"> ¿A qué <span> destino </span>puedo ir hoy?</h2>
+    <p class="button__text">Presiona el botón y descubre tu proximo destino.</p>
+    <div class="container__button">
+      <button class="button__random" id="generate-button">Destino</button>
+      <div class="button__random-text" id="destination-display"></div>
+    </div>
+  </div>
+  <script> 
+    function generateDestination() {
+        const destinations = [
+          "Paris, Francia",
+          "Roma, Italia",
+          "Londres, Inglaterra",
+          "Sydney, Australia",
+          "Nueva York, Estados Unidos",
+          "Barcelona, España",
+          "Tokyo, Japon",
+          "Singapur, Singapur",
+          "Cancun, Mexico",
+          "Maui, Hawaii"
+        ];
+  
+        const randomIndex = Math.floor(Math.random() * destinations.length);
+        return destinations[randomIndex];
+    }
+ 
+    const button = document.getElementById("generate-button");
+
+    button.addEventListener("click", () => {
+        const destination = generateDestination();
+        const destinationDisplay = document.getElementById("destination-display");
+        destinationDisplay.textContent = destination;
+    });
+  </script>
+</body>
+</html>
