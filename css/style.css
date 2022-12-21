@@ -491,6 +491,90 @@ span {
 
 
 @media (min-width: 960px) {
+    /* Nav Ivan */
+
+    .header__logo {
+        height: 70px;
+    }
+    
+    .header__nav {
+        display: flex;
+        width: 100%;
+    }
+    
+    .header__nav-link {
+        display: flex;
+        margin-left: 5px;
+        text-align: center;
+        padding: 20px;
+        color: #ffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    .header__nav-link:hover {
+        color: #FF9C33;
+    }
+    
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .contac {
+        display: flex;
+        justify-content: end;
+        padding: 20px;
+        font-size: 22px;
+    }
+    
+    .link {
+        text-decoration: none;
+        color: #ffff;
+        background-color: #FF9C33;
+        padding: 5px 20px;
+        margin-left: 50px;
+        border-radius: 7px;
+        font-size: 16px;
+        display: flex;
+        
+    }
+    
+    .link:hover {
+        color: #cdcdcdcd;
+    }
+    
+    .main__img {
+        height: 470px;
+        width: 100%;
+    }
+    
+    .header {
+        z-index: 10;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(85, 84, 84, 0.3);
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        scroll-behavior: smooth;
+    }
+    
+    .main__title {
+        background-color: #FF9C33;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        margin-top: -6px;
+    }
+    
+    .login__link, 
+    .sub__link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     /* Slide */
     .carousel {
         margin-bottom: 30px;
@@ -528,7 +612,7 @@ span {
     .img-8 {
         object-position: 0 -153px;
     }
-    
+
     .carousel-inner {
         height: 500px !important;
     }
