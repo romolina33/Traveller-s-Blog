@@ -23,6 +23,17 @@ span {
     color: var(--color-orange);
 }
 
+.header {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.main__title {
+    background-color: #FF9C33;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+}
 
 .carousel {
     display: none;
@@ -143,6 +154,10 @@ span {
     padding-right: 2.7px;
 }
 
+.mobile {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Paginacion */
 .pagination {
@@ -569,7 +584,9 @@ span {
         text-align: center;
         color: #ffff;
         font-weight: bold;
-        margin-top: -6px;
+        margin-top: -30px;
+        font-size: 30px;
+        padding: 10px;
     }
     
     .login__link, 
@@ -619,6 +636,10 @@ span {
 
     .carousel-inner {
         height: 500px !important;
+    }
+
+    .cards {
+        margin: 0 333px;
     }
 
     /* Lista */
